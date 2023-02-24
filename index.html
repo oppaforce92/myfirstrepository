@@ -1,1 +1,174 @@
-<h1>Hello World</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Мебельники</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__in center">
+                <div class="logo">
+                    Мебель<span class="styleFont">никки</span>
+                </div>
+                <div class="header__menu">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Категории</a></li>
+                        </ul>
+                    </nav>
+                    <div class="forms">
+                        <div class="shop">
+                            <button>
+                                <div class="icon">
+                                    <img src="/img//icons/packet.svg">
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header__auth">
+                                <div class="icon">
+                                    <button class="btn"  onmousedown="toggleForm()"><img src="/img/icons/user.svg" alt=""></button>
+                                        <form action="_post" class="form__auth">
+                                            <label for="">Авторизация</label>
+                                            <input type="text" placeholder="Логин...">
+                                            <input type="password" placeholder="Пароль...">
+                                            <button type="submit">Вход</button>
+                                        </form>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero">
+            <div class="hero__in center">
+                <div class="firstBlock">
+                    <div class="textBoxSearch">
+                        <div class="text">
+                            сейчас, купить<br>мебель очень <span class="yellowLine">просто</span>
+                        </div>
+                        <div class="searchForm">
+                            <form action="">
+                                <input type="text" placeholder="Найдите свой продукт здесь...">
+                                <button>Найти...</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="akcii">
+                        <p>
+                            У нас есть мебель, необходимая для вашего нового дома. Просмотрите сейчас бесплатно и получите большие скидки на все, от столов до ламп!
+                        </p>
+                    </div>
+                </div>
+                <div class="secondBlock">
+                    <div class="price">
+                        <p class="name">Стол Криста</p>
+                        <p class="typeTree">Кофейный столик, светло коричневый</p>
+                        <span class="total">80.000p</span>
+                        <button class="shopButton">Купить сейчас</button>
+                    </div>
+                    <div class="price">
+                        <p class="name">Стол Криста</p>
+                        <p class="typeTree">Кофейный столик, светло коричневый</p>
+                        <span class="total">80.000p</span>
+                        <button class="shopButton">Купить сейчас</button>
+                    </div>
+                    <div class="price">
+                        <p class="name">диван софа</p>
+                        <p class="typeTree">2-х местный, серый висле</p>
+                        <span class="total">120.000p</span>
+                        <button class="shopButton">Купить сейчас</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <div class="main__in center">
+                <div class="main__title">
+                    <div class="popular">популярные
+                        <span class="yellowLine">категории</span>
+                    </div>
+                </div>
+                <div class="main__model-furnite">
+                    <div class="chair">
+                        <div class="image">
+                            <img src="img/chair.svg" alt="">
+                        </div>
+                        <div class="model__name">
+                            <span>Диван</span>
+                        </div>
+                    </div>
+                    <div class="cabinet">
+                        <div class="image">
+                            <img src="img/cabinet.svg" alt="">
+                        </div>
+                        <div class="model__name">
+                            <span>Комод</span>
+                        </div>
+                    </div>
+                    <div class="lamp">
+                        <div class="image">
+                            <img src="img/lamp.svg" alt="">
+                        </div>
+                        <div class="model__name">
+                            <span>Лампа</span>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <div class="image">
+                            <img src="img/table.svg" alt="">
+                        </div>
+                        <div class="model__name">
+                            <span>Стол</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__second-block">
+                    <div class="modern">
+                        <p class="label">Современный дом начинается с МЕБЕЛЬНИККИ.</p>
+                        <p class="description">Вы найдете идеальную мебель для дома, не нарушая свой бюджет.</p>
+                        <img src="/img/divan.svg" alt="">
+                    </div>
+                    <div class="expirence">
+                        <div class="expirence__block-one">
+                            <div class="image">
+                                <img class="icon" src="/img/icons/arrow.png" alt="">
+                            </div>
+                            <div class="first">
+                                <p class="label">Индивидуальный опыт для каждого стиля</p>
+                                <p class="no-list">
+                                    Наш инструмент настройки позволяет фильтровать по размеру, цвету, типу мебели и многому другому!
+                                </p>
+                            </div>
+                        </div>  
+                        <div class="expirence__block-two">
+                            <div class="image">
+                                <img class="icon" src="/img/icons/arrow.png" alt="">
+                            </div>
+                            <div class="second">
+                                <p class="label">Конкурентные цены</p>
+                                <p class="no-list">
+                                    Стоимость большинства наших продуктов составляет менее 70000 рублей, а некоторые – всего 6000 рублей
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__in center">
+                
+            </div>
+        </footer>
+    </div>
+    <script src="/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+</body>
+</html>
