@@ -118,6 +118,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer; }
 
 .header__auth .form__auth {
+  position: absolute;
   display: none; }
 
 .hero {
