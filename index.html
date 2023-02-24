@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Мебельники</title>
 </head>
 <body>
@@ -26,14 +26,14 @@
                         <div class="shop">
                             <button>
                                 <div class="icon">
-                                    <img src="/img//icons/packet.svg">
+                                    <img src="/img/icons/packet.svg">
                                 </div>
                             </button>
                         </div>
                         <div class="header__auth">
                                 <div class="icon">
-                                    <button class="btn"  onmousedown="toggleForm()"><img src="/img/icons/user.svg" alt=""></button>
-                                        <form action="_post" class="form__auth">
+                                    <button class="btn"  onmousedown="openbox('box')"><img src="/img/icons/user.svg" alt=""></button>
+                                        <form action="_post" class="form__auth" id="box">
                                             <label for="">Авторизация</label>
                                             <input type="text" placeholder="Логин...">
                                             <input type="password" placeholder="Пароль...">
@@ -167,7 +167,7 @@
             </div>
         </footer>
     </div>
-    <script src="main.js"></script>
+    <script src="/js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 
 </body>
